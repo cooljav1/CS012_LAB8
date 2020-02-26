@@ -4,11 +4,21 @@
 CMakeFiles/LAB8.dir/Character.cpp.obj: ../Character.cpp
 CMakeFiles/LAB8.dir/Character.cpp.obj: ../Character.h
 
+CMakeFiles/LAB8.dir/Elf.cpp.obj: ../Character.h
+CMakeFiles/LAB8.dir/Elf.cpp.obj: ../Elf.cpp
+CMakeFiles/LAB8.dir/Elf.cpp.obj: ../Elf.h
+
 CMakeFiles/LAB8.dir/Warrior.cpp.obj: ../Character.h
 CMakeFiles/LAB8.dir/Warrior.cpp.obj: ../Warrior.cpp
 CMakeFiles/LAB8.dir/Warrior.cpp.obj: ../Warrior.h
 
+CMakeFiles/LAB8.dir/Wizard.cpp.obj: ../Character.h
+CMakeFiles/LAB8.dir/Wizard.cpp.obj: ../Wizard.cpp
+CMakeFiles/LAB8.dir/Wizard.cpp.obj: ../Wizard.h
+
 CMakeFiles/LAB8.dir/main.cpp.obj: ../Character.h
+CMakeFiles/LAB8.dir/main.cpp.obj: ../Elf.h
 CMakeFiles/LAB8.dir/main.cpp.obj: ../Warrior.h
+CMakeFiles/LAB8.dir/main.cpp.obj: ../Wizard.h
 CMakeFiles/LAB8.dir/main.cpp.obj: ../main.cpp
 

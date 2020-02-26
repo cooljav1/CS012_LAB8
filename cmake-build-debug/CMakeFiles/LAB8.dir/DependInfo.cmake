@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/projects/LAB8/Character.cpp" "D:/projects/LAB8/cmake-build-debug/CMakeFiles/LAB8.dir/Character.cpp.obj"
-  "D:/projects/LAB8/Warrior.cpp" "D:/projects/LAB8/cmake-build-debug/CMakeFiles/LAB8.dir/Warrior.cpp.obj"
-  "D:/projects/LAB8/main.cpp" "D:/projects/LAB8/cmake-build-debug/CMakeFiles/LAB8.dir/main.cpp.obj"
+  "C:/Users/eddie/CLionProjects/CS012_LAB8/Character.cpp" "C:/Users/eddie/CLionProjects/CS012_LAB8/cmake-build-debug/CMakeFiles/LAB8.dir/Character.cpp.obj"
+  "C:/Users/eddie/CLionProjects/CS012_LAB8/Elf.cpp" "C:/Users/eddie/CLionProjects/CS012_LAB8/cmake-build-debug/CMakeFiles/LAB8.dir/Elf.cpp.obj"
+  "C:/Users/eddie/CLionProjects/CS012_LAB8/Warrior.cpp" "C:/Users/eddie/CLionProjects/CS012_LAB8/cmake-build-debug/CMakeFiles/LAB8.dir/Warrior.cpp.obj"
+  "C:/Users/eddie/CLionProjects/CS012_LAB8/Wizard.cpp" "C:/Users/eddie/CLionProjects/CS012_LAB8/cmake-build-debug/CMakeFiles/LAB8.dir/Wizard.cpp.obj"
+  "C:/Users/eddie/CLionProjects/CS012_LAB8/main.cpp" "C:/Users/eddie/CLionProjects/CS012_LAB8/cmake-build-debug/CMakeFiles/LAB8.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

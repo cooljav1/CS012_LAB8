@@ -4,4 +4,4 @@ project(LAB8)
 set(CMAKE_CXX_STANDARD 14)
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
 
-add_executable(LAB8 main.cpp Warrior.h Character.cpp Warrior.cpp)
+add_executable(LAB8 main.cpp Warrior.h Character.cpp Warrior.cpp Elf.h Elf.cpp Wizard.h Wizard.cpp)

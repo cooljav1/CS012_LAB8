@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\projects\LAB8
+CMAKE_SOURCE_DIR = C:\Users\eddie\CLionProjects\CS012_LAB8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\projects\LAB8\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LAB8.dir/depend.make
@@ -58,48 +58,76 @@ include CMakeFiles/LAB8.dir/flags.make
 
 CMakeFiles/LAB8.dir/main.cpp.obj: CMakeFiles/LAB8.dir/flags.make
 CMakeFiles/LAB8.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\LAB8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LAB8.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB8.dir\main.cpp.obj -c D:\projects\LAB8\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LAB8.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB8.dir\main.cpp.obj -c C:\Users\eddie\CLionProjects\CS012_LAB8\main.cpp
 
 CMakeFiles/LAB8.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB8.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\LAB8\main.cpp > CMakeFiles\LAB8.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\eddie\CLionProjects\CS012_LAB8\main.cpp > CMakeFiles\LAB8.dir\main.cpp.i
 
 CMakeFiles/LAB8.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB8.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\LAB8\main.cpp -o CMakeFiles\LAB8.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\eddie\CLionProjects\CS012_LAB8\main.cpp -o CMakeFiles\LAB8.dir\main.cpp.s
 
 CMakeFiles/LAB8.dir/Character.cpp.obj: CMakeFiles/LAB8.dir/flags.make
 CMakeFiles/LAB8.dir/Character.cpp.obj: ../Character.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\LAB8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LAB8.dir/Character.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB8.dir\Character.cpp.obj -c D:\projects\LAB8\Character.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LAB8.dir/Character.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB8.dir\Character.cpp.obj -c C:\Users\eddie\CLionProjects\CS012_LAB8\Character.cpp
 
 CMakeFiles/LAB8.dir/Character.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB8.dir/Character.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\LAB8\Character.cpp > CMakeFiles\LAB8.dir\Character.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\eddie\CLionProjects\CS012_LAB8\Character.cpp > CMakeFiles\LAB8.dir\Character.cpp.i
 
 CMakeFiles/LAB8.dir/Character.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB8.dir/Character.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\LAB8\Character.cpp -o CMakeFiles\LAB8.dir\Character.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\eddie\CLionProjects\CS012_LAB8\Character.cpp -o CMakeFiles\LAB8.dir\Character.cpp.s
 
 CMakeFiles/LAB8.dir/Warrior.cpp.obj: CMakeFiles/LAB8.dir/flags.make
 CMakeFiles/LAB8.dir/Warrior.cpp.obj: ../Warrior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\LAB8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LAB8.dir/Warrior.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB8.dir\Warrior.cpp.obj -c D:\projects\LAB8\Warrior.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LAB8.dir/Warrior.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB8.dir\Warrior.cpp.obj -c C:\Users\eddie\CLionProjects\CS012_LAB8\Warrior.cpp
 
 CMakeFiles/LAB8.dir/Warrior.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB8.dir/Warrior.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\LAB8\Warrior.cpp > CMakeFiles\LAB8.dir\Warrior.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\eddie\CLionProjects\CS012_LAB8\Warrior.cpp > CMakeFiles\LAB8.dir\Warrior.cpp.i
 
 CMakeFiles/LAB8.dir/Warrior.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB8.dir/Warrior.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\LAB8\Warrior.cpp -o CMakeFiles\LAB8.dir\Warrior.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\eddie\CLionProjects\CS012_LAB8\Warrior.cpp -o CMakeFiles\LAB8.dir\Warrior.cpp.s
+
+CMakeFiles/LAB8.dir/Elf.cpp.obj: CMakeFiles/LAB8.dir/flags.make
+CMakeFiles/LAB8.dir/Elf.cpp.obj: ../Elf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LAB8.dir/Elf.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB8.dir\Elf.cpp.obj -c C:\Users\eddie\CLionProjects\CS012_LAB8\Elf.cpp
+
+CMakeFiles/LAB8.dir/Elf.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB8.dir/Elf.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\eddie\CLionProjects\CS012_LAB8\Elf.cpp > CMakeFiles\LAB8.dir\Elf.cpp.i
+
+CMakeFiles/LAB8.dir/Elf.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB8.dir/Elf.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\eddie\CLionProjects\CS012_LAB8\Elf.cpp -o CMakeFiles\LAB8.dir\Elf.cpp.s
+
+CMakeFiles/LAB8.dir/Wizard.cpp.obj: CMakeFiles/LAB8.dir/flags.make
+CMakeFiles/LAB8.dir/Wizard.cpp.obj: ../Wizard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LAB8.dir/Wizard.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB8.dir\Wizard.cpp.obj -c C:\Users\eddie\CLionProjects\CS012_LAB8\Wizard.cpp
+
+CMakeFiles/LAB8.dir/Wizard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB8.dir/Wizard.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\eddie\CLionProjects\CS012_LAB8\Wizard.cpp > CMakeFiles\LAB8.dir\Wizard.cpp.i
+
+CMakeFiles/LAB8.dir/Wizard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB8.dir/Wizard.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\eddie\CLionProjects\CS012_LAB8\Wizard.cpp -o CMakeFiles\LAB8.dir\Wizard.cpp.s
 
 # Object files for target LAB8
 LAB8_OBJECTS = \
 "CMakeFiles/LAB8.dir/main.cpp.obj" \
 "CMakeFiles/LAB8.dir/Character.cpp.obj" \
-"CMakeFiles/LAB8.dir/Warrior.cpp.obj"
+"CMakeFiles/LAB8.dir/Warrior.cpp.obj" \
+"CMakeFiles/LAB8.dir/Elf.cpp.obj" \
+"CMakeFiles/LAB8.dir/Wizard.cpp.obj"
 
 # External object files for target LAB8
 LAB8_EXTERNAL_OBJECTS =
@@ -107,11 +135,13 @@ LAB8_EXTERNAL_OBJECTS =
 LAB8.exe: CMakeFiles/LAB8.dir/main.cpp.obj
 LAB8.exe: CMakeFiles/LAB8.dir/Character.cpp.obj
 LAB8.exe: CMakeFiles/LAB8.dir/Warrior.cpp.obj
+LAB8.exe: CMakeFiles/LAB8.dir/Elf.cpp.obj
+LAB8.exe: CMakeFiles/LAB8.dir/Wizard.cpp.obj
 LAB8.exe: CMakeFiles/LAB8.dir/build.make
 LAB8.exe: CMakeFiles/LAB8.dir/linklibs.rsp
 LAB8.exe: CMakeFiles/LAB8.dir/objects1.rsp
 LAB8.exe: CMakeFiles/LAB8.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\projects\LAB8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LAB8.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable LAB8.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LAB8.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +154,6 @@ CMakeFiles/LAB8.dir/clean:
 .PHONY : CMakeFiles/LAB8.dir/clean
 
 CMakeFiles/LAB8.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\projects\LAB8 D:\projects\LAB8 D:\projects\LAB8\cmake-build-debug D:\projects\LAB8\cmake-build-debug D:\projects\LAB8\cmake-build-debug\CMakeFiles\LAB8.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\eddie\CLionProjects\CS012_LAB8 C:\Users\eddie\CLionProjects\CS012_LAB8 C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug\CMakeFiles\LAB8.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LAB8.dir/depend
 

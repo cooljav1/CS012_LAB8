@@ -12,8 +12,7 @@ private:
     string allegiance;
 
 public:
-    Warrior(string& name, double& health, double& attackStrength, string& allegiance);
-    const string& getAl();
+    Warrior(string name, double health, double attackStrength, string allegiance);
     void attack(Character &enemy) override;
 };
 
