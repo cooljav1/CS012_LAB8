@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/LAB8.dir/Character.cpp.obj"
+  "CMakeFiles/LAB8.dir/Warrior.cpp.obj"
   "CMakeFiles/LAB8.dir/main.cpp.obj"
   "LAB8.exe"
   "LAB8.exe.manifest"

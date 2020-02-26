@@ -17,7 +17,7 @@ class Character {
 	double attackStrength;
 
  public:
- 	Character(HeroType, const string &, double, double);
+ 	Character(HeroType, const string &name, double hp, double atk);
  	HeroType getType() const;
  	const string & getName() const;
  	int getHealth() const;

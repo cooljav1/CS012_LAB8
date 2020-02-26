@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/projects/LAB8/Character.cpp
+Character.h
+D:/projects/LAB8/Character.h
+
+D:/projects/LAB8/Character.h
+string
+-
+
+D:/projects/LAB8/Warrior.cpp
+iostream
+-
+Warrior.h
+D:/projects/LAB8/Warrior.h
+
+D:/projects/LAB8/Warrior.h
+Character.h
+D:/projects/LAB8/Character.h
+
+D:/projects/LAB8/main.cpp
+iostream
+-
+vector
+-
+cstdlib
+-
+ctime
+-
+Character.h
+D:/projects/LAB8/Character.h
+Warrior.h
+D:/projects/LAB8/Warrior.h
+Wizard.h
+D:/projects/LAB8/Wizard.h
+

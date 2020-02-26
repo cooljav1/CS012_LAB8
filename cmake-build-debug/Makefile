@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\eddie\CLionProjects\CS012_LAB8
+CMAKE_SOURCE_DIR = D:\projects\LAB8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug
+CMAKE_BINARY_DIR = D:\projects\LAB8\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug\CMakeFiles C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\LAB8\cmake-build-debug\CMakeFiles D:\projects\LAB8\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eddie\CLionProjects\CS012_LAB8\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\LAB8\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,60 @@ LAB8/fast:
 	$(MAKE) -f CMakeFiles\LAB8.dir\build.make CMakeFiles/LAB8.dir/build
 .PHONY : LAB8/fast
 
+Character.obj: Character.cpp.obj
+
+.PHONY : Character.obj
+
+# target to build an object file
+Character.cpp.obj:
+	$(MAKE) -f CMakeFiles\LAB8.dir\build.make CMakeFiles/LAB8.dir/Character.cpp.obj
+.PHONY : Character.cpp.obj
+
+Character.i: Character.cpp.i
+
+.PHONY : Character.i
+
+# target to preprocess a source file
+Character.cpp.i:
+	$(MAKE) -f CMakeFiles\LAB8.dir\build.make CMakeFiles/LAB8.dir/Character.cpp.i
+.PHONY : Character.cpp.i
+
+Character.s: Character.cpp.s
+
+.PHONY : Character.s
+
+# target to generate assembly for a file
+Character.cpp.s:
+	$(MAKE) -f CMakeFiles\LAB8.dir\build.make CMakeFiles/LAB8.dir/Character.cpp.s
+.PHONY : Character.cpp.s
+
+Warrior.obj: Warrior.cpp.obj
+
+.PHONY : Warrior.obj
+
+# target to build an object file
+Warrior.cpp.obj:
+	$(MAKE) -f CMakeFiles\LAB8.dir\build.make CMakeFiles/LAB8.dir/Warrior.cpp.obj
+.PHONY : Warrior.cpp.obj
+
+Warrior.i: Warrior.cpp.i
+
+.PHONY : Warrior.i
+
+# target to preprocess a source file
+Warrior.cpp.i:
+	$(MAKE) -f CMakeFiles\LAB8.dir\build.make CMakeFiles/LAB8.dir/Warrior.cpp.i
+.PHONY : Warrior.cpp.i
+
+Warrior.s: Warrior.cpp.s
+
+.PHONY : Warrior.s
+
+# target to generate assembly for a file
+Warrior.cpp.s:
+	$(MAKE) -f CMakeFiles\LAB8.dir\build.make CMakeFiles/LAB8.dir/Warrior.cpp.s
+.PHONY : Warrior.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +212,12 @@ help:
 	@echo ... LAB8
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Character.obj
+	@echo ... Character.i
+	@echo ... Character.s
+	@echo ... Warrior.obj
+	@echo ... Warrior.i
+	@echo ... Warrior.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
