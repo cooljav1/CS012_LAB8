@@ -15,7 +15,8 @@ void Warrior::attack(Character& enemy) {
         Warrior &opp = dynamic_cast<Warrior &>(enemy);
         if(allegiance == opp.allegiance){
             cout << "Warrior " << name  << " does not attack Warrior " << enemy.getName() << "." << endl;
-            cout << "They share an allegiance with " << allegiance << "." << endl << endl;
+            cout << "They share an allegiance with " << allegiance << "." << endl;
+            return;
         }
     }
     double damage = (health/MAX_HEALTH) * attackStrength;

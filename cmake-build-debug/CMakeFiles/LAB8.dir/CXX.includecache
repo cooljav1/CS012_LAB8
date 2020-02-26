@@ -6,23 +6,45 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/eddie/CLionProjects/CS012_LAB8/Character.h
+D:/projects/LAB8/Character.cpp
+Character.h
+D:/projects/LAB8/Character.h
+
+D:/projects/LAB8/Character.h
 string
 -
 
-C:/Users/eddie/CLionProjects/CS012_LAB8/Elf.h
-Character.h
-C:/Users/eddie/CLionProjects/CS012_LAB8/Character.h
+D:/projects/LAB8/Elf.cpp
+iostream
+-
+Elf.h
+D:/projects/LAB8/Elf.h
 
-C:/Users/eddie/CLionProjects/CS012_LAB8/Warrior.h
+D:/projects/LAB8/Elf.h
 Character.h
-C:/Users/eddie/CLionProjects/CS012_LAB8/Character.h
+D:/projects/LAB8/Character.h
 
-C:/Users/eddie/CLionProjects/CS012_LAB8/Wizard.h
+D:/projects/LAB8/Warrior.cpp
+iostream
+-
+Warrior.h
+D:/projects/LAB8/Warrior.h
+
+D:/projects/LAB8/Warrior.h
 Character.h
-C:/Users/eddie/CLionProjects/CS012_LAB8/Character.h
+D:/projects/LAB8/Character.h
 
-C:/Users/eddie/CLionProjects/CS012_LAB8/main.cpp
+D:/projects/LAB8/Wizard.cpp
+Wizard.h
+D:/projects/LAB8/Wizard.h
+iostream
+-
+
+D:/projects/LAB8/Wizard.h
+Character.h
+D:/projects/LAB8/Character.h
+
+D:/projects/LAB8/main.cpp
 iostream
 -
 vector
@@ -32,11 +54,11 @@ cstdlib
 ctime
 -
 Character.h
-C:/Users/eddie/CLionProjects/CS012_LAB8/Character.h
+D:/projects/LAB8/Character.h
 Warrior.h
-C:/Users/eddie/CLionProjects/CS012_LAB8/Warrior.h
+D:/projects/LAB8/Warrior.h
 Elf.h
-C:/Users/eddie/CLionProjects/CS012_LAB8/Elf.h
+D:/projects/LAB8/Elf.h
 Wizard.h
-C:/Users/eddie/CLionProjects/CS012_LAB8/Wizard.h
+D:/projects/LAB8/Wizard.h
 

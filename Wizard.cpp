@@ -13,7 +13,7 @@ void Wizard::attack(Character &enemy) {
     double dmg;
     if(enemy.getType() == WIZARD){
         Wizard &opp = dynamic_cast<Wizard &>(enemy);
-        dmg = attackStrength * (rank/opp.rank);
+        dmg = attackStrength * ((double)rank/opp.rank);
     }
     else {
         dmg = attackStrength;

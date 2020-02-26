@@ -14,9 +14,11 @@ void Elf::attack(Character &enemy) {
         Elf &opp = dynamic_cast<Elf &>(enemy);
         if(familyName == opp.familyName){
             cout << "Elf " << name << " does not attack Elf " << enemy.getName() << "." << endl;
-            cout << "They are both members of the " << familyName << " family." << endl << endl;
+            cout << "They are both members of the " << familyName << " family." << endl;
+            return;
         }
     }
+
     double damage = (health/MAX_HEALTH) * attackStrength;
     cout << "Elf " << name << " shoots an arrow at " << enemy.getName() << " --- TWANG!!" << endl;
     cout << enemy.getName() << " takes " << damage << " damage." << endl;
